@@ -6,7 +6,8 @@ import { Product } from "./components/Product/Product";
 import { Alert } from "./components/Alert/Alert";
 import { ClicksCounter } from "./components/ClicksCounter/ClicksCounter";
 import { FamousQuote } from "./components/FamousQuote/FamousQuote";
-import { Box } from "./components/box/box"
+import { Box } from "./components/box/box";
+import { FavoriteFruit } from "./components/FavoriteFruit/FavoriteFruit";
 
 export const App = () => {
 	return (
@@ -25,6 +26,7 @@ export const App = () => {
 			<Box>
 				<Alert type={"exito"} message={"Triunfazo"} />
 			</Box>
+			<FavoriteFruit fruit={"Melon"} />
 		</>
 	);
 };
