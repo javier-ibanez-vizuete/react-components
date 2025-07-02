@@ -1,0 +1,22 @@
+.alert-message {
+	align-self: center;
+	font-size: 3rem;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.h2-alert-message {
+	background-color: red;
+}
+
+.info-alert-message {
+	background-color: blue;
+}
+
+.error-alert-message {
+	background-color: purple;
+}
+
+.exito-alert-message {
+	background-color: orange;
+}
