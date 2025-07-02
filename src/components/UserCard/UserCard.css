@@ -1,0 +1,12 @@
+.user-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: center;
+	gap: 0.5rem;
+
+	padding: 2rem;
+	border-radius: 8px;
+	background-color: aquamarine;
+	border: 1px solid black;
+}
