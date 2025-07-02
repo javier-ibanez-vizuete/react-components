@@ -4,6 +4,7 @@ import { Avatar } from "./components/Avatar/Avatar";
 import { WelcomeMessage } from "./components/WelcomeMessage/WelcomeMessage";
 import { Product } from "./components/Product/Product";
 import { Alert } from "./components/Alert/Alert";
+import { ClicksCounter } from "./components/ClicksCounter/ClicksCounter";
 
 export const App = () => {
 	return (
@@ -17,6 +18,7 @@ export const App = () => {
 			<Alert type={"info"} message={"Este es un mensaje de informacion"} />
 			<Alert type={"exito"} message={"Triunfazo"} />
 			<Alert type={"exito"} message={""} />
+			<ClicksCounter clickNumber={12} />
 		</>
 	);
 };
