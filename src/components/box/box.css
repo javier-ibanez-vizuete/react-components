@@ -1,0 +1,9 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    padding: 8px;
+    background-color: red;
+}

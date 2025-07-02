@@ -6,6 +6,7 @@ import { Product } from "./components/Product/Product";
 import { Alert } from "./components/Alert/Alert";
 import { ClicksCounter } from "./components/ClicksCounter/ClicksCounter";
 import { FamousQuote } from "./components/FamousQuote/FamousQuote";
+import { Box } from "./components/box/box"
 
 export const App = () => {
 	return (
@@ -21,6 +22,9 @@ export const App = () => {
 			<Alert type={"exito"} message={""} />
 			<ClicksCounter clickNumber={12} />
 			<FamousQuote quote={"No hay mejor Viagra que cambiar de Cabra"} author={"Javier Siclaro"} />
+			<Box>
+				<Alert type={"exito"} message={"Triunfazo"} />
+			</Box>
 		</>
 	);
 };
