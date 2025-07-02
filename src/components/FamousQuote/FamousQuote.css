@@ -1,0 +1,11 @@
+.famousquote-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	align-self: center;
+}
+
+
+.famousquote-container span {
+    font-size: 1rem;
+}
